@@ -15,7 +15,7 @@ add_action( 'phpmailer_init', 'simple_phpmailer' );
 
 function simple_phpmailer( $phpmailer ) {
     $phpmailer->isSMTP();     
-    $phpmailer->Host = 'smtp.SEUHOST.com';
+    $phpmailer->Host = 'smtp.SEUHOST.com'; // Aplique o link do seu host de STMP
     $phpmailer->SMTPAuth = true; // Forçar esse Usuário e Senha para autenticação
     $phpmailer->Port = 465; // Porta SMTP do seu Host/Servidor, pode ser 25(Padrão) ou 465(SSL ou TLS)
     $phpmailer->Username = 'seuemail@seuhost.com'; // Seu e-mail para autenticação/disparo
