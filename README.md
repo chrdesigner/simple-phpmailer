@@ -6,7 +6,7 @@ Esse plugin adiciona o método de disparo de e-mails em seu sistema [WordPress](
 
 Ele é útil para os desenvolvedores quem estam trabalhando em localhost e não tem servidor de SMTP instalado em seu servidor local.
 
-** Configuração **
+**Configuração**
 
 1. Coloque a pasta `simple-phpmailer` no seu repositório `wp-content/plugins`
 2. Vá até a aba `Plugins` do seu site e ative.
@@ -16,4 +16,4 @@ Ele é útil para os desenvolvedores quem estam trabalhando em localhost e não 
 
 ###### Lembrando que cada host tem as suas especificações de porta, link de host para disparo, etc...
 
-* Esse plugin é criado sem propósito comercial/financeiro *
+*Esse plugin é criado sem propósito comercial/financeiro*
