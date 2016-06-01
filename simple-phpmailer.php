@@ -23,9 +23,7 @@ function simple_phpmailer( $phpmailer ) {
 
     // Configurações Adicionais
     // Se o seu Host necessitar de autenticação via SSL/TLS você precisa declarar, senão é só comentar os valores abaixo.
-
     $phpmailer->SMTPSecure = "ssl"; // Escolha SSL ou TLS, se for necessário
     $phpmailer->From = "seuemail@seuhost.com"; // E-mail de autenticação/disparo
     $phpmailer->FromName = "Nome do Seu Site"; // Nome do seu Site
-
 }
