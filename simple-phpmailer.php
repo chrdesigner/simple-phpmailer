@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       PHPMailer
+ * Plugin Name:       Simple PHPMailer
  * Plugin URI:        https://github.com/chrdesigner/simple-phpmailer
  * Description:       Configurar o PHPMailer para usar um servidor SMTP
  * Version:           1.0.0
@@ -9,6 +9,11 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  */
+
+// If this file is called directly, abort.
+if ( ! defined( 'WPINC' ) ) {
+    die;
+}
 
 // Configurar o PHPMailer para usar um servidor SMTP
 add_action( 'phpmailer_init', 'simple_phpmailer' );
